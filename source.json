@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.16",
-          "buildVersion": "25",
+          "version": "1.0.17",
+          "buildVersion": "26",
           "minOSVersion": "17.0",
-          "date": "2026-11-25T11:27:50Z",
-          "size": 1765748,
-          "sha256": "6b832f97fa72dfe99c8137d5f754f4a6c67eebaa4b21f76ae7a1396982c0be24",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.16-25/FoolishTranslation.ipa",
-          "localizedDescription": "个人规则同步状态显示在主页设置按钮下方。iCloud 确认上传后才显示已同步和时间；同步失败可以点重试。提示词、语气及群规则点保存后立即写入本机并开始同步，保存失败会保留编辑内容。"
+          "date": "2026-11-25T11:37:43Z",
+          "size": 1797021,
+          "sha256": "cf746e3232496d67edeb581ba706f1ebd34eee23f91ff31b60925a3f6976cf1b",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.17-26/FoolishTranslation.ipa",
+          "localizedDescription": "「口语」旁新增独立的「加表情」，按窗口保存，默认关闭，适用于翻译、重译和订正。群聊规则页可设置本群默认主翻译模型和订正开关，开启后可选择订正方式与模型。切换到该群或新建该群窗口时应用。"
         }
       ],
       "appPermissions": {

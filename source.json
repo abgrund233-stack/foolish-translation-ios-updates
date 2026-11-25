@@ -12,6 +12,16 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
+          "version": "1.0.8",
+          "buildVersion": "17",
+          "minOSVersion": "17.0",
+          "date": "2026-11-25T02:16:09Z",
+          "size": 1641808,
+          "sha256": "6deeedf394fe6018265dbd7eab4b680ae46105f9bed69f4e7e4a05563a94741d",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.8-17/FoolishTranslation.ipa",
+          "localizedDescription": "在设置里单独登录或切换 Gemini 订正账号。登录返回和打开 Gemini App 的链接会在傻瓜翻译内打开 Gemini 网页。"
+        },
+        {
           "version": "1.0.7",
           "buildVersion": "16",
           "minOSVersion": "17.0",

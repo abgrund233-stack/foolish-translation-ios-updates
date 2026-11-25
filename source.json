@@ -12,6 +12,16 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
+          "version": "1.0.10",
+          "buildVersion": "19",
+          "minOSVersion": "17.0",
+          "date": "2026-11-25T06:17:55Z",
+          "size": 1642601,
+          "sha256": "210fa0cae14c76a0c49777acd634c5ad442afd07b0fc3354a8f538e95d9691f9",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.10-19/FoolishTranslation.ipa",
+          "localizedDescription": "自动识别「水军／水軍」抬头和尾标，默认套用女三方语气。明确标男时使用男三方语气，沿用已有角色选项和自定义规则。"
+        },
+        {
           "version": "1.0.9",
           "buildVersion": "18",
           "minOSVersion": "17.0",

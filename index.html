@@ -6,16 +6,54 @@
 :root{color-scheme:light dark;--ink:#153c34;--paper:#f3f6f2;--line:#cbd8d0;--action:#17654e}
 *{box-sizing:border-box}body{background:var(--paper);color:var(--ink);font:17px/1.6 Inter,system-ui,sans-serif;margin:0}main{margin:7vh auto;padding:24px;max-width:640px}
 header{display:flex;align-items:center;gap:18px}img{border-radius:20%;width:64px;height:64px}h1,h2,p{margin:0}h1{font-size:30px}h2{font-size:21px}section{border-top:1px solid var(--line);padding:24px 0}header{padding:0 0 25px}p{margin:.5em 0 1em}a{color:var(--action)}.button{display:inline-block;background:var(--action);color:white;border-radius:10px;text-decoration:none;padding:9px 15px;margin:3px 10px 3px 0}a:focus-visible{outline:3px solid currentColor;outline-offset:3px}small{display:block;overflow-wrap:anywhere;margin-top:12px}@media(prefers-color-scheme:dark){:root{--ink:#e5eee8;--paper:#13221e;--line:#3c5048;--action:#8cd8b7}.button{color:#092e22}}
+nav,.links{display:flex;flex-wrap:wrap;gap:8px 18px}nav{padding-bottom:20px}section{scroll-margin-top:16px}h3{font-size:18px;margin:22px 0 6px}ol{padding-inline-start:1.65em;margin:10px 0}li{margin:0 0 12px;padding-inline-start:.2em}li::marker{font-weight:700}details{margin-top:14px;border-block-start:1px solid var(--line)}summary{padding:12px 0;cursor:pointer;font-weight:600;color:var(--action)}summary:focus-visible{outline:2px solid currentColor}details p{margin:6px 0 14px}.source-url{display:block;overflow-wrap:anywhere}.button{margin-top:8px}
 </style></head><body><main>
 <header><img src="icon.png" alt=""><div><h1>傻瓜翻译</h1><span id="version">iPhone 安装与更新</span></div></header>
-<section><h2>AltStore Classic · 在 iPhone 上更新</h2>
-<p>首次使用时添加更新源，从源里安装傻瓜翻译。以后在「我的 App」中点「更新」。手机需要能连接运行 AltServer 的电脑。</p>
-<a class="button" href="altstore-classic://source?url=https%3A%2F%2Fabgrund233-stack.github.io%2Ffoolish-translation-ios-updates%2Fsource.json">添加更新源</a>
-<a href="altstore-classic://viewApp?bundleID=local.foolishtranslation.ios">在 AltStore 中查看</a>
-<small>也可以把 <a href="source.json">更新源地址</a> 复制到 AltStore。</small></section>
-<section><h2>Sideloadly · 在电脑上更新</h2><p>用装有 Sideloadly 的电脑打开本页，连接 iPhone，用原来的 Apple ID 和包名设置覆盖安装。</p>
-<a class="button" href="sideloadly:https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/latest/download/FoolishTranslation.ipa">用 Sideloadly 安装最新版</a>
-<a href="https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/latest/download/FoolishTranslation.ipa">下载最新 IPA</a>
+<nav aria-label="选择操作"><a href="#install">第一次安装</a><a href="#update">已有旧版，要更新</a><a href="#sideloadly">我用 Sideloadly</a></nav>
+<section id="install">
+<h2>用 AltStore Classic 安装到 iPhone</h2>
+<p>先看 iPhone 上有没有一个叫 <strong>AltStore</strong> 的 App。已经有、也能打开的话，直接从「添加更新源」开始。</p>
+<details><summary>手机里还没有 AltStore，怎么装？</summary>
+<ol>
+<li><strong>在电脑上</strong>打开下方对应的官方图文教程，下载 AltServer。AltServer 装在电脑上，AltStore Classic 装在 iPhone 上。<div class="links"><a href="https://faq.altstore.io/altstore-classic/how-to-install-altstore-macos">我用 Mac</a><a href="https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows">我用 Windows</a></div></li>
+<li>打开电脑上的 AltServer，用数据线连接 iPhone，解锁手机。如果手机问「要信任此电脑吗？」，点「信任」并输入锁屏密码。</li>
+<li>在 Mac 屏幕顶部菜单栏，或 Windows 右下角任务栏，点 AltServer 图标。点 <strong>Install AltStore</strong>，选自己的 iPhone，按提示输入自己的 Apple 账户。</li>
+<li>等手机主屏幕出现 AltStore 图标，点开它。如果提示「未受信任的开发者」，到「设置 → 通用 → VPN 与设备管理」，点自己的 Apple 账户并信任。如果系统提示开启「开发者模式」，到「设置 → 隐私与安全性 → 开发者模式」，按提示重启并确认。</li>
+<li>能打开 AltStore、看到底部标签栏，就装好了。<strong>电脑上的 AltServer 保持运行，数据线先留着。</strong>回到 iPhone，继续下面的步骤。</li>
+</ol></details>
+<h3>添加更新源，再安装傻瓜翻译</h3>
+<ol>
+<li><strong>用 iPhone 的 Safari 打开本页。</strong>如果朋友从聊天软件发来链接，可以长按链接复制，再粘贴到 Safari 地址栏。</li>
+<li>点下面的绿色按钮。如果手机问是否在 AltStore 中打开，点「打开」。<div><a class="button" href="altstore-classic://source?url=https%3A%2F%2Fabgrund233-stack.github.io%2Ffoolish-translation-ios-updates%2Fsource.json">添加更新源</a></div></li>
+<li>手机会跳到 AltStore。核对源名称是「傻瓜翻译」，点 <strong>Add Source（添加源）</strong> 并确认。底部「Sources（来源）」里能看到「傻瓜翻译」，这一步就完成了。</li>
+<li>回到 Safari，点 <a href="altstore-classic://viewApp?bundleID=local.foolishtranslation.ios">在 AltStore 中查看傻瓜翻译</a>。也可以在 AltStore 底部点「Browse（浏览）」，找到「傻瓜翻译」并点进去。</li>
+<li>在应用详情页点 <strong>FREE（免费）</strong> 或安装按钮。如果 AltStore 提示登录，使用刚才安装 AltStore 时的 Apple 账户。等进度走完，在 iPhone 主屏幕点「傻瓜翻译」，看到翻译界面就装好了。</li>
+</ol>
+<details><summary>点「添加更新源」没反应？手动添加</summary>
+<ol>
+<li>先确认手机上能单独打开 AltStore Classic。回到 Safari，<strong>长按下面的链接，选「拷贝链接」</strong>。如果点开后看到一页英文和括号，返回上一页再长按即可。<a class="source-url" href="source.json">https://abgrund233-stack.github.io/foolish-translation-ios-updates/source.json</a></li>
+<li>打开 AltStore，点底部「Sources（来源）」，再点「＋」。在地址框里长按，选「粘贴」，然后点「Add Source（添加源）」。</li>
+<li>看到「傻瓜翻译」已出现在来源列表后，回到上面的第 4 步安装。如果提示这个源已经添加，也可以直接从第 4 步继续。</li>
+</ol></details>
+</section>
+<section id="update"><h2>已经用 AltStore 装过，怎么更新？</h2>
+<ol>
+<li>打开电脑上的 <strong>AltServer</strong>，让电脑保持唤醒。最简单的是用数据线连上 iPhone，再解锁手机。已经开启 Wi-Fi 同步的，可以让手机和电脑连同一个 Wi-Fi。</li>
+<li>在 iPhone 打开 <strong>AltStore → My Apps（我的 App）</strong>，查看可用更新。找到「傻瓜翻译」，点旁边的 <strong>Update（更新）</strong>。更新源只需添加一次。</li>
+<li>等进度走完，打开傻瓜翻译即可。想确认版本，可以在 AltStore 查看已装版本，与本页顶部的版本号对照。</li>
+</ol>
+<details><summary>只看到「Refresh All」，或提示找不到 AltServer？</summary>
+<p>「Refresh All（全部刷新）」是给已装的 App 续签。要装新版，请先对照版本号。如果版本较旧，打开「Sources → 傻瓜翻译」，确认能看到新版，再回「My Apps」查看更新。</p>
+<p>如果提示找不到 AltServer，先用数据线连接，解锁手机并打开电脑上的 AltServer。在 Mac 的「访达」或 Windows 的 iTunes 里看到这台 iPhone 后，再回手机点更新。<a href="https://faq.altstore.io/altstore-classic/troubleshooting-guide">查看官方故障排查图解</a></p>
+</details></section>
+<section id="sideloadly"><h2>用 Sideloadly 在电脑上安装或更新</h2>
+<ol>
+<li><strong>在电脑上打开本页。</strong>如果还没有 Sideloadly，先从 <a href="https://sideloadly.io/">Sideloadly 官网</a> 下载对应的 Mac 或 Windows 版，安装并打开。</li>
+<li>用数据线连接 iPhone，解锁手机。如果弹出「信任此电脑」，点「信任」。在电脑的 Sideloadly 窗口中选中自己的 iPhone。</li>
+<li>点下面的按钮，浏览器询问时选「打开 Sideloadly」。如果没有反应，就点「下载最新 IPA」，把下载好的 <strong>FoolishTranslation.ipa</strong> 文件拖进 Sideloadly 的 IPA 区域。<div><a class="button" href="sideloadly:https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/latest/download/FoolishTranslation.ipa">用 Sideloadly 安装最新版</a><a href="https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/latest/download/FoolishTranslation.ipa">下载最新 IPA</a></div></li>
+<li>在「Apple ID」里填自己的 Apple 账户。<strong>如果是更新，请保留手机上的旧版，用上次的 Apple 账户和相同的 Bundle ID（包名）设置覆盖安装。</strong></li>
+<li>点 <strong>Start（开始）</strong>，按电脑提示完成验证。等窗口显示 <strong>Done（完成）</strong>，再到手机主屏幕打开傻瓜翻译。以后有新版，回到这个链接重复第 2 至 5 步。</li>
+</ol>
 </section></main>
 <script>fetch('source.json').then(r=>r.json()).then(s=>{const v=s.apps[0].versions[0];document.getElementById('version').textContent='iPhone 版 '+v.version+' · iOS '+v.minOSVersion+' 及以上'}).catch(()=>{});</script>
 </body></html>

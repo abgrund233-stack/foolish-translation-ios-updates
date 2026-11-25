@@ -1,0 +1,32 @@
+{
+  "name": "傻瓜翻译",
+  "identifier": "local.foolishtranslation.ios.source",
+  "sourceURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/source.json",
+  "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
+  "apps": [
+    {
+      "name": "傻瓜翻译",
+      "bundleIdentifier": "local.foolishtranslation.ios",
+      "developerName": "傻瓜翻译",
+      "localizedDescription": "多窗口中文到日语翻译与订正。",
+      "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
+      "versions": [
+        {
+          "version": "1.0.7",
+          "buildVersion": "16",
+          "minOSVersion": "17.0",
+          "date": "2026-11-25T01:49:18Z",
+          "size": 1632942,
+          "sha256": "0923a64f8cc4ab46f7a73c56f471393e95184219437bbb64082f4d007d7e1b82",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.7-16/FoolishTranslation.ipa",
+          "localizedDescription": "新增「设置 → 软件更新」。AltStore Classic 用户可订阅更新源，Sideloadly 用户可通过固定网页下载与安装最新版。"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}

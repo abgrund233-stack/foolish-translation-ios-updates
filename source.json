@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.17",
-          "buildVersion": "26",
+          "version": "1.0.18",
+          "buildVersion": "27",
           "minOSVersion": "17.0",
-          "date": "2026-11-25T11:37:43Z",
-          "size": 1797021,
-          "sha256": "cf746e3232496d67edeb581ba706f1ebd34eee23f91ff31b60925a3f6976cf1b",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.17-26/FoolishTranslation.ipa",
-          "localizedDescription": "「口语」旁新增独立的「加表情」，按窗口保存，默认关闭，适用于翻译、重译和订正。群聊规则页可设置本群默认主翻译模型和订正开关，开启后可选择订正方式与模型。切换到该群或新建该群窗口时应用。"
+          "date": "2026-11-25T12:12:21Z",
+          "size": 1802152,
+          "sha256": "dd552ff99eb24d5d0fa2620b4064c17370da7241b63184071b236ffad72c564a",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.18-27/FoolishTranslation.ipa",
+          "localizedDescription": "修复 Gemini 对话页已可用但订正模型刷新仍提示无法打开的问题。订正和手动打开 Gemini 共用账号跳转处理，分别提示页面超时和账号验证。个人同步补充 iCloud 云盘选择指引。"
         }
       ],
       "appPermissions": {

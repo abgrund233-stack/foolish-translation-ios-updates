@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.15",
-          "buildVersion": "24",
+          "version": "1.0.16",
+          "buildVersion": "25",
           "minOSVersion": "17.0",
-          "date": "2026-11-25T11:18:00Z",
-          "size": 1743533,
-          "sha256": "ba0f88a193a8d21fe4e07cc956cb717b0f32dadbb0f1a93d2482b10fec05c2a6",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.15-24/FoolishTranslation.ipa",
-          "localizedDescription": "个人规则同步统一使用 iCloud 云盘根目录下的「傻瓜翻译规则」。首次授权后自动创建或复用该目录，读取双方已有规则并合并。设置内显示 iCloud 账户可用状态，移除手填账户备注。"
+          "date": "2026-11-25T11:27:50Z",
+          "size": 1765748,
+          "sha256": "6b832f97fa72dfe99c8137d5f754f4a6c67eebaa4b21f76ae7a1396982c0be24",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.16-25/FoolishTranslation.ipa",
+          "localizedDescription": "个人规则同步状态显示在主页设置按钮下方。iCloud 确认上传后才显示已同步和时间；同步失败可以点重试。提示词、语气及群规则点保存后立即写入本机并开始同步，保存失败会保留编辑内容。"
         }
       ],
       "appPermissions": {

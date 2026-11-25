@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.18",
-          "buildVersion": "27",
+          "version": "1.0.19",
+          "buildVersion": "28",
           "minOSVersion": "17.0",
-          "date": "2026-11-25T12:12:21Z",
-          "size": 1802152,
-          "sha256": "dd552ff99eb24d5d0fa2620b4064c17370da7241b63184071b236ffad72c564a",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.18-27/FoolishTranslation.ipa",
-          "localizedDescription": "修复 Gemini 对话页已可用但订正模型刷新仍提示无法打开的问题。订正和手动打开 Gemini 共用账号跳转处理，分别提示页面超时和账号验证。个人同步补充 iCloud 云盘选择指引。"
+          "date": "2026-11-25T12:21:18Z",
+          "size": 1818867,
+          "sha256": "3d8ba8425bc5c2a7269a15321878ed8474534ec097ddeec47cbd41d178c6022c",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.19-28/FoolishTranslation.ipa",
+          "localizedDescription": "个人规则改为手动上传和下载。下载前显示云端规则时间与改动清单，下载后保留所用云端版本，上传和下载分别记时。Gemini 对话页可用但未展示模型菜单时，可使用网页默认订正。"
         }
       ],
       "appPermissions": {

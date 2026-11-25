@@ -12,6 +12,16 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
+          "version": "1.0.14",
+          "buildVersion": "23",
+          "minOSVersion": "17.0",
+          "date": "2026-11-25T11:00:05Z",
+          "size": 1732519,
+          "sha256": "5e5caaa7685500a3a6ddb34879f41652a4bf2bd7c3073a38f926e2a217ffded3",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.14-23/FoolishTranslation.ipa",
+          "localizedDescription": "新增个人规则同步：在 Mac 和 iPhone 上选择同一个私人 iCloud 云盘文件夹，即可同步通用提示词、群、语气与审校规则。首次合并和同时编辑时可选择保留的版本；设置里可核对系统 iCloud 账户并填写本机备注。"
+        },
+        {
           "version": "1.0.13",
           "buildVersion": "22",
           "minOSVersion": "17.0",

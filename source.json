@@ -12,6 +12,16 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
+          "version": "1.0.11",
+          "buildVersion": "20",
+          "minOSVersion": "17.0",
+          "date": "2026-11-25T06:40:12Z",
+          "size": 1652551,
+          "sha256": "9d6345415d5b77087446e080ccac856ac4eb1c0583a5e01e854a1d554ff579b7",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.11-20/FoolishTranslation.ipa",
+          "localizedDescription": "订正设置点击「刷新订正模型和思考等级」，即可按当前账号和模型点选可用等级。Gemini 切换模型后会重新读取，服务默认也可直接保留。"
+        },
+        {
           "version": "1.0.10",
           "buildVersion": "19",
           "minOSVersion": "17.0",

@@ -12,6 +12,16 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
+          "version": "1.0.12",
+          "buildVersion": "21",
+          "minOSVersion": "17.0",
+          "date": "2026-11-25T07:25:54Z",
+          "size": 1656354,
+          "sha256": "71e0935f7931ef8f5ff3348c526a41074edd4c60fc40f0b504a3116333826378",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.12-21/FoolishTranslation.ipa",
+          "localizedDescription": "合并 Gemini 账号入口到「订正设置」。在设置页直接加载模型菜单，增加繁体模式选择器识别、读取等待时间和刷新结果提示。"
+        },
+        {
           "version": "1.0.11",
           "buildVersion": "20",
           "minOSVersion": "17.0",

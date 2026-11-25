@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>傻瓜翻译 · iPhone 安装与更新</title>
+<style>
+:root{color-scheme:light dark;--ink:#153c34;--paper:#f3f6f2;--line:#cbd8d0;--action:#17654e}
+*{box-sizing:border-box}body{background:var(--paper);color:var(--ink);font:17px/1.6 Inter,system-ui,sans-serif;margin:0}main{margin:7vh auto;padding:24px;max-width:640px}
+header{display:flex;align-items:center;gap:18px}img{border-radius:20%;width:64px;height:64px}h1,h2,p{margin:0}h1{font-size:30px}h2{font-size:21px}section{border-top:1px solid var(--line);padding:24px 0}header{padding:0 0 25px}p{margin:.5em 0 1em}a{color:var(--action)}.button{display:inline-block;background:var(--action);color:white;border-radius:10px;text-decoration:none;padding:9px 15px;margin:3px 10px 3px 0}a:focus-visible{outline:3px solid currentColor;outline-offset:3px}small{display:block;overflow-wrap:anywhere;margin-top:12px}@media(prefers-color-scheme:dark){:root{--ink:#e5eee8;--paper:#13221e;--line:#3c5048;--action:#8cd8b7}.button{color:#092e22}}
+</style></head><body><main>
+<header><img src="icon.png" alt=""><div><h1>傻瓜翻译</h1><span id="version">iPhone 安装与更新</span></div></header>
+<section><h2>AltStore Classic · 在 iPhone 上更新</h2>
+<p>首次使用时添加更新源，从源里安装傻瓜翻译。以后在「我的 App」中点「更新」。手机需要能连接运行 AltServer 的电脑。</p>
+<a class="button" href="altstore-classic://source?url=https%3A%2F%2Fabgrund233-stack.github.io%2Ffoolish-translation-ios-updates%2Fsource.json">添加更新源</a>
+<a href="altstore-classic://viewApp?bundleID=local.foolishtranslation.ios">在 AltStore 中查看</a>
+<small>也可以把 <a href="source.json">更新源地址</a> 复制到 AltStore。</small></section>
+<section><h2>Sideloadly · 在电脑上更新</h2><p>用装有 Sideloadly 的电脑打开本页，连接 iPhone，用原来的 Apple ID 和包名设置覆盖安装。</p>
+<a class="button" href="sideloadly:https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/latest/download/FoolishTranslation.ipa">用 Sideloadly 安装最新版</a>
+<a href="https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/latest/download/FoolishTranslation.ipa">下载最新 IPA</a>
+</section></main>
+<script>fetch('source.json').then(r=>r.json()).then(s=>{const v=s.apps[0].versions[0];document.getElementById('version').textContent='iPhone 版 '+v.version+' · iOS '+v.minOSVersion+' 及以上'}).catch(()=>{});</script>
+</body></html>

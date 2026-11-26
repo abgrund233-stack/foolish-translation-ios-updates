@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.24",
-          "buildVersion": "33",
+          "version": "1.0.25",
+          "buildVersion": "34",
           "minOSVersion": "17.0",
-          "date": "2026-11-26T05:26:44Z",
-          "size": 1827503,
-          "sha256": "8255c0afca0b87456573f5573d35a7c8dfd83c9b5dd600093f06df68a5dd19fa",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.24-33/FoolishTranslation.ipa",
-          "localizedDescription": "点击原文的「清除」时，当前窗口同时恢复「自动识别」角色，下一条原文按自己的抬头识别。"
+          "date": "2026-11-26T08:42:20Z",
+          "size": 1843504,
+          "sha256": "178ebba8d66eace4a9d78bb14ae02a2c5402fc31a1aaa230222d6f1c3b35100c",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.25-34/FoolishTranslation.ipa",
+          "localizedDescription": "联网核名默认关闭，保留已保存的选择。支持核名的模型仅在手动勾选或正文触发股票、公司名关键词时启用，按需后台核名并展示来源。普通多行翻译的行数与重试要求移入本条用户消息，继续校验译文行数。"
         }
       ],
       "appPermissions": {

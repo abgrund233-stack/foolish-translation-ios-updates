@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.22",
-          "buildVersion": "31",
+          "version": "1.0.23",
+          "buildVersion": "32",
           "minOSVersion": "17.0",
-          "date": "2026-11-26T01:35:05Z",
-          "size": 1828345,
-          "sha256": "d8d59586bd4191fdb7abfad841865a857b0d5abe42043dd75228d8b56f11e353",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.22-31/FoolishTranslation.ipa",
-          "localizedDescription": "窗口振动强度可独立调节，松手试振。开启自动复核时只在复核成功后振一次；未开启自动复核时在翻译成功后振一次。"
+          "date": "2026-11-26T04:32:18Z",
+          "size": 1827486,
+          "sha256": "2b6c82c72eac16ca63f78b4deed24187e55a38857684f54bd27cfe9105375248",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.23-32/FoolishTranslation.ipa",
+          "localizedDescription": "修复直板 iPhone 添加群后列表不显示的问题，可直接填写群名和规则并保存。修复 Gemini 手机网页选中「订正」后未识别的问题，支持简体和繁体技能名称。"
         }
       ],
       "appPermissions": {

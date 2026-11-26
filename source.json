@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.19",
-          "buildVersion": "28",
+          "version": "1.0.20",
+          "buildVersion": "29",
           "minOSVersion": "17.0",
-          "date": "2026-11-25T12:21:18Z",
-          "size": 1818867,
-          "sha256": "3d8ba8425bc5c2a7269a15321878ed8474534ec097ddeec47cbd41d178c6022c",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.19-28/FoolishTranslation.ipa",
-          "localizedDescription": "个人规则改为手动上传和下载。下载前显示云端规则时间与改动清单，下载后保留所用云端版本，上传和下载分别记时。Gemini 对话页可用但未展示模型菜单时，可使用网页默认订正。"
+          "date": "2026-11-26T01:30:45Z",
+          "size": 1821304,
+          "sha256": "4268b1a7f606f9a9e3c9bf970312c5179385ed2f49944e34b003c7d100a2bb03",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.20-29/FoolishTranslation.ipa",
+          "localizedDescription": "每个翻译窗口可独立开启「翻译或复核完成时振动」。翻译和复核各自成功时提醒一次，切换窗口后继续生效。"
         }
       ],
       "appPermissions": {

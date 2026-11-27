@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.30",
-          "buildVersion": "39",
+          "version": "1.0.31",
+          "buildVersion": "40",
           "minOSVersion": "17.0",
-          "date": "2026-11-27T04:40:05Z",
-          "size": 1885534,
-          "sha256": "cd0a9e323a2ad2640ee4210e6d1928b7dfd49f3466692c8810ad849df0d4a684",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.30-39/FoolishTranslation.ipa",
-          "localizedDescription": "上传新规则后，iCloud 保留最新版和上一版。可在「iCloud 规则」里下载上一版；新版上传确认后清理更早的记录。请同时更新 Mac 版至 1.1.41。"
+          "date": "2026-11-27T05:07:03Z",
+          "size": 1886133,
+          "sha256": "14fc7ff5555a37b19cf42e433a0e0e1c08704080993d9326474021b38e185977",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.31-40/FoolishTranslation.ipa",
+          "localizedDescription": "初译会明确标出待译正文，要求模型只翻译其中的内容。问句和命令句按原意翻译；分行和格式重试要求放在正文外。"
         }
       ],
       "appPermissions": {

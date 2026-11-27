@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.31",
-          "buildVersion": "40",
+          "version": "1.0.32",
+          "buildVersion": "41",
           "minOSVersion": "17.0",
-          "date": "2026-11-27T05:07:03Z",
-          "size": 1886133,
-          "sha256": "14fc7ff5555a37b19cf42e433a0e0e1c08704080993d9326474021b38e185977",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.31-40/FoolishTranslation.ipa",
-          "localizedDescription": "初译会明确标出待译正文，要求模型只翻译其中的内容。问句和命令句按原意翻译；分行和格式重试要求放在正文外。"
+          "date": "2026-11-27T05:20:57Z",
+          "size": 1917123,
+          "sha256": "e36ca218aa4aa3b52e06ae78c7f31f5c6bb8fce7ff11267c94900cb1a6eabcdc",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.32-41/FoolishTranslation.ipa",
+          "localizedDescription": "设置页支持搜索。Duo 侧边 Dock 新增放大镜，点一下即可输入。API 复核提示词可在「群聊与提示词」里直接编辑，选择 API 复核时也可从模型旁打开。"
         }
       ],
       "appPermissions": {

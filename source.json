@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.25",
-          "buildVersion": "34",
+          "version": "1.0.26",
+          "buildVersion": "35",
           "minOSVersion": "17.0",
-          "date": "2026-11-26T08:42:20Z",
-          "size": 1843504,
-          "sha256": "178ebba8d66eace4a9d78bb14ae02a2c5402fc31a1aaa230222d6f1c3b35100c",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.25-34/FoolishTranslation.ipa",
-          "localizedDescription": "联网核名默认关闭，保留已保存的选择。支持核名的模型仅在手动勾选或正文触发股票、公司名关键词时启用，按需后台核名并展示来源。普通多行翻译的行数与重试要求移入本条用户消息，继续校验译文行数。"
+          "date": "2026-11-27T01:22:51Z",
+          "size": 1864711,
+          "sha256": "749b29c1ba2d49176717c315f785f4befc31517b24f309d587f654b65a4aac42",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.26-35/FoolishTranslation.ipa",
+          "localizedDescription": "新增 API 复核，沿用 Google API Key 和本次主翻译模型，可单独编辑规则。只发送规则和日文初译。每次复核单列总量、输入、缓存、输出和思考 tokens，可复制最终日文。"
         }
       ],
       "appPermissions": {

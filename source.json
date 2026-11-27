@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.27",
-          "buildVersion": "36",
+          "version": "1.0.28",
+          "buildVersion": "37",
           "minOSVersion": "17.0",
-          "date": "2026-11-27T01:25:15Z",
-          "size": 1864464,
-          "sha256": "288db9a9a61cd07495084fc888eec31f4059e6380d4f613abe616e8b2f50f187",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.27-36/FoolishTranslation.ipa",
-          "localizedDescription": "精简 API 复核默认规则，保留自定义规则。复核按模型使用可用的最低思考档位，3.8 Flash 用 LOW，3 Flash preview 用 MINIMAL，2.5 Flash 关闭思考。每次复核直接读取用量。"
+          "date": "2026-11-27T01:26:16Z",
+          "size": 1864669,
+          "sha256": "d478292286af75b99babcc01a552521c070f0effb8e9fef29d9d1ddb67b0fd4f",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.28-37/FoolishTranslation.ipa",
+          "localizedDescription": "API 复核支持旧版 Gemma 1、2、3：仅将复核规则和初译合并为一条用户消息。继续支持短规则、按模型降低思考用量及独立 token 明细。"
         }
       ],
       "appPermissions": {

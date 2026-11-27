@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.28",
-          "buildVersion": "37",
+          "version": "1.0.29",
+          "buildVersion": "38",
           "minOSVersion": "17.0",
-          "date": "2026-11-27T01:26:16Z",
-          "size": 1864669,
-          "sha256": "d478292286af75b99babcc01a552521c070f0effb8e9fef29d9d1ddb67b0fd4f",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.28-37/FoolishTranslation.ipa",
-          "localizedDescription": "API 复核支持旧版 Gemma 1、2、3：仅将复核规则和初译合并为一条用户消息。继续支持短规则、按模型降低思考用量及独立 token 明细。"
+          "date": "2026-11-27T01:47:03Z",
+          "size": 1872417,
+          "sha256": "86ba51234002a8a0ceb9fe5fe6678d23fc71f750cee20044962a8d73f733cd8b",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.29-38/FoolishTranslation.ipa",
+          "localizedDescription": "API 复核可单独选择 Google API 模型，或跟随本次初译使用的主模型。支持按窗口保存、设置群默认复核模型；每次复核的用量明细标出使用的模型。"
         }
       ],
       "appPermissions": {

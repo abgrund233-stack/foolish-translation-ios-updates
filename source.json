@@ -12,14 +12,14 @@
       "iconURL": "https://abgrund233-stack.github.io/foolish-translation-ios-updates/icon.png",
       "versions": [
         {
-          "version": "1.0.33",
-          "buildVersion": "42",
+          "version": "1.0.34",
+          "buildVersion": "43",
           "minOSVersion": "17.0",
-          "date": "2026-11-27T05:30:54Z",
-          "size": 1915966,
-          "sha256": "a51daab33328a096d9e5d735fa4931346f2dcbc530f3f3a64d85d972f38e422d",
-          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.33-42/FoolishTranslation.ipa",
-          "localizedDescription": "Duo 的搜索移到设置页侧栏，与返回按钮同列。默认收起输入框，点放大镜即可输入关键词。"
+          "date": "2026-11-27T06:50:02Z",
+          "size": 1946247,
+          "sha256": "01ae34f29783b9e149ed91e19faf8fb5f5bc925ea46c2c2c9c6ae37148f5fe88",
+          "downloadURL": "https://github.com/abgrund233-stack/foolish-translation-ios-updates/releases/download/v1.0.34-43/FoolishTranslation.ipa",
+          "localizedDescription": "默认使用 Gemini 3.8 Flash（中）。旧 3 Flash 的窗口和群设置自动迁移。「设置 → 连接」可启用全局备用 API，初译和 API 复核均可在超时或服务繁忙时切换一次。"
         }
       ],
       "appPermissions": {
